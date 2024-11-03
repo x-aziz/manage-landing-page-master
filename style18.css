@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: hsl(0, 0%, 98%);
+}
+header {
+  padding: 0px 100px;
+}
+nav {
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+ul {
+  /* flex-wrap: wrap; */
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+a {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(227, 12%, 61%);
+}
+.btn1 {
+  cursor: pointer;
+  width: 150px;
+  height: 48px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  background-color: hsl(12, 88%, 59%);
+}
+.btn1:hover {
+  box-shadow: 0px 10px 15px 0px hsl(12, 88%, 59%);
+}
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  font-style: normal;
+  color: hsl(227, 12%, 61%);
+}
+.section1 {
+  padding: 100px 0px;
+  display: flex;
+}
+.part_right_section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 0;
+}
+.h1_section1 {
+  font-size: 45px;
+  color: hsl(228, 39%, 23%);
+}
+.p_section1 {
+  width: 340px;
+}
+.section2 {
+  /* flex-wrap: wrap; */
+  display: flex;
+}
+.part_left_section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 49%;
+}
+
+.h1_section2,
+h1 {
+  font-size: 35px;
+  color: hsl(228, 39%, 23%);
+}
+.p_section2 {
+  width: 330px;
+}
+.part_right_section2 {
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.part_buttons button {
+  width: 70px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  background-color: hsl(12, 88%, 59%);
+}
+.container_disc {
+  padding: 10px 0;
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+h4 {
+  color: hsl(228, 39%, 23%);
+}
+.section3 {
+  /* flex-wrap: wrap; */
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+.cards_section3 {
+  /* flex-wrap: wrap; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 401px);
+  grid-template-rows: repeat(1, 235px);
+  gap: 30px;
+  margin-top: 50px;
+}
+.items_section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  background-color: #eee;
+  border-radius: 8px;
+}
+.items_section3 img {
+  text-align: center;
+  width: 70px;
+  margin-top: -40px;
+}
+.section4 {
+  background-image: url("./manage-landing-page-master/manage-landing-page-master/images/bg-simplify-section-desktop.svg");
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  justify-content: space-around;
+}
+.btn2 {
+  cursor: pointer;
+  width: 150px;
+  height: 48px;
+  border-radius: 30px;
+  color: hsl(12, 88%, 59%);
+  border: none;
+  background-color: white;
+}
+.section4 h1 {
+  color: white;
+  width: 412px;
+}
+footer {
+  display: flex;
+  background-color: hsl(233, 12%, 13%);
+  padding: 50px 70px;
+  justify-content: space-around;
+  height: 250px;
+}
+.part1_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons_footer {
+  display: flex;
+  gap: 10px;
+}
+.part2_footer ul {
+  display: flex;
+  flex-direction: column;
+}
+.part2_footer a {
+  color: white;
+}
+.input_button {
+  display: flex;
+  gap: 10px;
+}
+.input_button button {
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  background-color: hsl(12, 88%, 59%);
+}
+.btn2:hover {
+  box-shadow: 0px 10px 15px 0px white;
+}
+.input_button button:hover {
+  box-shadow: 0px 10px 15px 0px hsl(12, 88%, 59%);
+}
+input {
+  border-radius: 30px;
+  border: none;
+  padding-left: 30px;
+}
+.part2_footer a:hover {
+  color: hsl(12, 88%, 59%);
+}
+.icons_footer a img:hover {
+  background-color: hsl(12, 88%, 59%);
+}
+.menUe_phoen {
+  display: none;
+}
+.shape_mobile {
+  display: nonw;
+}
+#h5_section4_mobile {
+  display: none;
+}
+#coopyrighy_mobile {
+  display: none;
+}
+.h4_mobile {
+  display: none;
+}
+#links_footer_mobile {
+  display: flex;
+  justify-content: space-around;
+  width: 380px;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding: 0 0;
+  }
+  nav {
+    padding: 30px;
+    flex-wrap: nowrap;
+  }
+  a,
+  .btn1 {
+    display: none;
+  }
+  .menUe_phoen {
+    display: block;
+  }
+  .section1 {
+    flex-direction: column-reverse;
+    padding: 50px 0px;
+  }
+  .part_left_section1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .img_section1 {
+    width: 370px;
+  }
+  .part_right_section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 0;
+    gap: 10px;
+  }
+  .h1_section1 {
+    font-size: 40px;
+  }
+  .p_section1 {
+    width: 318px;
+    font-size: 17px;
+  }
+  #btn1 {
+    display: block;
+  }
+  .section2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .followed_div_button {
+    display: flex;
+    justify-content: center;
+  }
+  .part_left_section2 {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .part_right_section2 {
+    width: 375px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .shape_mobile {
+    display: block;
+    width: 100%;
+    background-color: hsl(15, 82%, 89%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .h4_mobile {
+    display: block;
+  }
+  h4 {
+    display: none;
+  }
+  .part_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .container {
+    padding-left: 20px;
+  }
+  .cards_section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .section4 {
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+  }
+  #h1_section4_desktop {
+    display: none;
+  }
+  #h5_section4_mobile {
+    display: block;
+    font-size: 42px;
+  }
+  footer {
+    flex-direction: column-reverse;
+    padding: 0;
+    height: 500px;
+  }
+  .icons_footer a,
+  .part2_footer a {
+    display: block;
+  }
+  #part1_footer{
+    gap: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  .icons_footer {
+    gap: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  #coopyrighy_mobile {
+    display: block;
+    text-align: center;
+  }
+  #copyright_desktop {
+    display: none;
+  }
+  #links_footer_mobile {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+  }
+}
